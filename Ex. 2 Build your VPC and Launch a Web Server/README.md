@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: _____________RITHANI P___________________
-* **Register Number**: ______25017521_______________
-* **Date of Submission**: ___29.10.26_______________
+* **Name**:RITHANI P
+* **Register Number**: 25017521
+* **Date of Submission**: 29.10.26
 
 ---
 
