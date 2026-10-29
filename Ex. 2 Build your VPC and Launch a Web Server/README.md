@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: _____________RITHANI P___________________
+* **Register Number**: ______25017521_______________
+* **Date of Submission**: ___29.10.26_______________
 
 ---
 
@@ -87,11 +87,15 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.A Virtual Private Cloud (VPC) was designed and created with the CIDR block 10.0.0.0/16 to establish a secure and isolated network environment within AWS.
+
+2.A public subnet was configured within the VPC with the CIDR range 10.0.1.0/24, and auto-assign public IPv4 addresses was enabled to allow internet connectivity for instances.
+
+3.An Internet Gateway was created and attached to the VPC, followed by the setup of a route table with a default route (0.0.0.0/0) pointing to the gateway, and the route table was associated with the public subnet.
+
+4.A security group was established to permit inbound SSH (port 22) and HTTP (port 80) traffic, and an EC2 instance was launched using the Amazon Linux 2 AMI, associated with the security group and a key pair.
+
+5.The Apache HTTPD web server was installed and started on the EC2 instance, a simple HTML webpage was created, and its accessibility was verified through the public IP address of the instance via a web browser.
 
 ---
 
@@ -99,19 +103,20 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1247" height="678" alt="WhatsApp Image 2026-10-28 at 2 22 01 PM" src="https://github.com/user-attachments/assets/81d4c65f-7c33-4ecd-a73a-ae4bb828cb89" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
+<img width="1255" height="673" alt="WhatsApp Image 2026-10-28 at 2 22 42 PM" src="https://github.com/user-attachments/assets/6a444f45-5beb-4c89-bace-8f45b7ce5d66" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1170" height="710" alt="WhatsApp Image 2026-10-28 at 2 23 36 PM" src="https://github.com/user-attachments/assets/3faf1eac-24db-49c3-9f67-0951917f5092" />
 
 ---
 
