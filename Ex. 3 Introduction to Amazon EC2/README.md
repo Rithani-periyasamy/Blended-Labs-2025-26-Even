@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: RITHANI P
+* **Register Number**: 25017521
+* **Date of Submission**: 30.10.26
 
 ---
 
@@ -98,31 +98,33 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Logged in to the AWS Management Console and opened the Amazon EC2 Dashboard.
 
----
+2.Launched an EC2 instance using the Amazon Linux 2 AMI, selected the t2.micro instance type, and configured the key pair and security group.
+
+3.Connected to the running instance using SSH and performed basic operations such as stop, start, and reboot while monitoring its status.
+
+4.After completing the experiment, checked the instance monitoring details and terminated the EC2 instance to avoid unnecessary charges.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
+<img width="1225" height="629" alt="WhatsApp Image 2026-10-30 at 11 31 36 AM" src="https://github.com/user-attachments/assets/4aa00ebc-1e93-4121-910d-42c71848d25e" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1215" height="769" alt="WhatsApp Image 2026-10-30 at 11 33 17 AM" src="https://github.com/user-attachments/assets/e1ce12c6-0085-4a55-81ff-43d9b4d5a825" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1223" height="604" alt="WhatsApp Image 2026-10-30 at 11 33 40 AM" src="https://github.com/user-attachments/assets/05e147a9-26f2-4a60-ba23-b3bcf4eae383" />
+
 
 ---
 
