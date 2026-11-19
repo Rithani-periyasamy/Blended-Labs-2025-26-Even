@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: Rithani.P
+* **Register Number**:212225040340
+* **Date of Submission**:19.11.2026
 ---
 
 ## Objective
@@ -37,18 +36,21 @@ The objective of this experiment is to understand how Amazon Elastic Block Store
 ### Task 1: Explore Amazon EBS
 
 Explore the Amazon EBS service through the EC2 dashboard. Observe different volume types such as General Purpose SSD (gp2/gp3), Provisioned IOPS SSD, Throughput Optimized HDD, and Cold HDD.
-
 ---
 
 ### Task 2: Create an EBS Volume
 
 Create a new EBS volume in the same Availability Zone as the EC2 instance. Choose an appropriate size and volume type.
 
+
 ---
 
 ### Task 3: Attach EBS Volume to EC2 Instance
 
 Attach the created EBS volume to the running EC2 instance as an additional block device.
+
+
+
 
 ---
 
@@ -80,12 +82,13 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Created an EBS volume in the same Availability Zone as the EC2 instance and selected the required volume size and type.
 
+2.Attached the newly created EBS volume to the running EC2 instance and connected to the instance using SSH.
+
+3.Formatted the attached volume with the ext4 file system and mounted it to the /data directory.
+
+4.Created sample files in the mounted EBS volume, rebooted the EC2 instance, and verified that the stored data was still available.
 ---
 
 ## Output Screenshots (Attach 3)
@@ -93,12 +96,14 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 ### Screenshot 1: EBS Volume Created
 
 (Insert Screenshot Here)
-
+<img width="841" height="336" alt="WhatsApp Image 2026-11-19 at 5 05 46 PM" src="https://github.com/user-attachments/assets/c83f4627-3cc3-418d-8f69-1e8a8c19b8a8" />
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
 (Insert Screenshot Here)
+
+<img width="835" height="430" alt="WhatsApp Image 2026-11-19 at 5 06 33 PM" src="https://github.com/user-attachments/assets/ee38e0d1-4bbf-47e3-8915-3589228daead" />
 
 ---
 
@@ -106,6 +111,7 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Insert Screenshot Here)
 
+<img width="829" height="455" alt="WhatsApp Image 2026-11-19 at 5 07 07 PM" src="https://github.com/user-attachments/assets/aeffca40-92ec-45b5-9f06-53d385dd157f" />
 ---
 
 ## Result / Conclusion
